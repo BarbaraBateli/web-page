@@ -1,0 +1,238 @@
+* {
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.center {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+}
+header {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: #fc525f;
+  padding: 2px 0;
+  border-bottom: 2px solid white;
+}
+.logo {
+  color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.menu h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  padding-inline: 25px;
+  margin: 0;
+}
+
+/* Aqui termina o <header> e começa o Banner-Desktop */
+
+.banner {
+  background-color: #e9e5f0;
+  width: 100%;
+  height: 40%;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 120%;
+  font-weight: bolder;
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Aqui termina o Banner-Desktop e começa o Retângulo BG */
+
+.retangulo-bg {
+  display: block;
+  background-color: white;
+}
+@media screen and (min-width: 40em) {
+  .ofertas {
+    text-align: center;
+    height: 30%;
+    width: 100%;
+  }
+  .cards {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    max-width: 50%;
+    height: 15%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+  }
+}
+.each-card {
+  display: inline-flex;
+  background-color: #e9e5f0;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+  width: auto;
+  border-radius: 20px;
+  margin: 2% 2%;
+}
+.fotolivro {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 50%;
+  padding: 10% 0%;
+}
+.fan-photos {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 50%;
+  padding: 10% 0%;
+}
+.card-title {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  word-break: keep-all;
+  color: black;
+  padding-right: 3px;
+}
+.card-title p {
+  line-height: 3%;
+  letter-spacing: 0px;
+  word-break: keep-all;
+  color: black;
+}
+button {
+  background-color: #fc525f;
+  display: inline;
+  text-align: center;
+  width: 70%;
+  height: 15%;
+  padding: 0%;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button p {
+  font-size: 80%;
+  color: white;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 3%;
+}
+
+/* Aqui começa o "Retângulo 17", que eu chamei de ".demais-ofertas" */
+
+.retangulo-17 {
+  display: block;
+  background-color: #e9e5f0;
+}
+@media screen and (min-width: 40em) {
+  .demais-ofertas {
+    text-align: center;
+    width: 100%;
+    height: 30%;
+  }
+  .carousel {
+    display: flex;
+    background-color: #e9e5f0;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    width: 20%;
+    height: 15%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+    cursor: pointer;
+  }
+}
+.carousel-item {
+  display: inline-flex;
+  background-color: white;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+  max-height: auto;
+  border-radius: 20px;
+  margin: 2% 2%;
+}
+.img-fluid {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 50%;
+  padding: 10% 0%;
+}
+.card-title1 {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  word-break: keep-all;
+  color: black;
+  padding-right: 3px;
+}
+.card-title1 p{
+  line-height: 3%;
+  letter-spacing: 0px;
+  word-break: keep-all;
+  color: black;
+}
+button {
+  background-color: #fc525f;
+  display: inline;
+  width: 60%;
+  height: 15%;
+  padding: 0%;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button p {
+  font-size: 80%;
+  color: white;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 3%;
+}
+
+.carousel-control-prev {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: start;
+  color: black;
+}
+.carousel-control-next {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: black;
+}

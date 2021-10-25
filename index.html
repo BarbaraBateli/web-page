@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <title>Méliuz|Fotoregistro</title>
+  </head>
+
+  <!--Aqui termina a <head> e começa o <body> / <header>-->
+
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="./assets/images/MéliuzLogo.png"
+          alt="White Méliuz logo with transparent background."
+        />
+        <div class="menu">
+          <h1>|</h1>
+        </div>
+        <div>
+          <img
+            src="./assets/images/LogoFotoregistro.png"
+            alt="White Fotoregistro logo with transparent background."
+          />
+        </div>
+      </div>
+    </header>
+    <!--Aqui termina o <header> e começa o Banner-Desktop-->
+    <section class="main">
+      <img
+        class="banner"
+        src="./assets/images/BannerDesktop.png"
+        alt="An open laptop, with the FotoRegistro page on the screen, and next to it a promotional"
+      />
+    </section>
+    <!--Aqui termina o Banner-Desktop e começa o Retângulo BG-->
+    <section class="retangulo-bg">
+      <div class="ofertas">
+        <h2>Ofertas em destaque:</h2>
+      </div>
+      <div class="cards">
+        <div class="each-card">
+          <img
+            class="fotolivro"
+            src="./assets/images/FotolivroClassic.png"
+            alt="White FotoRegistro logo with transparent background."
+          />
+          <div class="text">
+            <h3 class="card-title">Fotolivro Classic</h3>
+            <p>(A5 quadrado)</p>
+            <p>De R$ XX,XX</p>
+            <p>Por R$ XX,XX</p>
+            <button>
+              <p>EU QUERO!</p>
+            </button>
+          </div>
+        </div>
+        <div class="each-card">
+          <img
+            class="fan-photos"
+            src="./assets/images/Pacote100fotos.png"
+            alt="A fan with several photos"
+          />
+          <div class="text">
+            <h3 class="card-title">Pacote 100 fotos</h3>
+            <p>(10x15cm)</p>
+            <p>De R$ XX,XX</p>
+            <p>Por R$ XX,XX</p>
+            <button>
+              <p>EU QUERO!</p>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!--Aqui começa o "Retângulo 17", que eu coloquei as ".demais-ofertas"-->
+
+      <section class="retangulo-17">
+        <div class="demais-ofertas">
+          <h2>Demais Ofertas:</h2>
+        </div>
+
+        <!--Aqui começa o carousel-->
+
+        <div id="carouselSite" class="carousel" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img
+                class="img-fluid d-block"
+                src="./assets/images/FotoRetro.png"
+                alt="Três fotos no estilo Polaroid"
+              />
+              <div class="text">
+                <h3 class="card-title1">Foto Retrô</h3>
+                <p>Kit com 20 un</p>
+                <p>De R$ XX,XX</p>
+                <p>Por R$ XX,XX</p>
+                <button>
+                  <p>EU QUERO!</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                class="img-fluid d-block"
+                src="./assets/images/PosterPremium.png"
+                alt="Várias fotos formando um coração"
+              />
+              <div class="text">
+                <h3 class="card-title1">Pôster Premium</h3>
+                <p>De R$ XX,XX</p>
+                <p>Por R$ XX,XX</p>
+                <button>
+                  <p>EU QUERO!</p>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-fluid d-block"
+                src="./assets/images/ImãQuadrado.png"
+                alt="Frigobar amarelo estilo retrô, com nove imãs de fotografias, alinhados de 3 em 3"
+              />
+              <div class="text">
+                <h3 class="card-title1">Imã Quadrado</h3>
+                <p>De R$ XX,XX</p>
+                <p>Por R$ XX,XX</p>
+                <button>
+                  <p>EU QUERO!</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
